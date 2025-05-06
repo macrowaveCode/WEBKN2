@@ -92,7 +92,7 @@ body {
 }
 
 .highlight {
-  color: #ea3bc2; /* Warna pink sesuai desain */
+  color: #e600a1; /* Warna pink sesuai desain */
 }
 
 .hero-text p {
@@ -104,7 +104,7 @@ body {
 /* Tombol CTA */
 .cta {
   display: inline-block;
-  background-color: #ea3bc2;
+  background-color: #e600a1;
   color: white;
   padding: 14px 28px;
   border-radius: 30px;
@@ -162,7 +162,7 @@ body {
   font-size: 40px;
 }
 .intro h1 span{
-  color: #ff4ec7;
+  color: #e600a1;
   font-weight: bold;
 }
 
@@ -170,7 +170,7 @@ body {
   font-size: 30px;
 }
 .intro h2 span {
-  color: #ff4ec7;
+  color: #e600a1;
   font-weight: bold;
 }
 
@@ -230,7 +230,7 @@ body {
 }
 
 .carousel-btn {
-  background-color: #ff4ec7;
+  background-color: #e600a1;
   color: white;
   font-size: 24px;
   border: none;
@@ -254,7 +254,7 @@ body {
 }
 
 .card-title{
-  color: #ff4ec7;
+  color: #e600a1;
 }
 
 /*JK*/
@@ -318,7 +318,7 @@ body {
   margin-top: 50px;
   left: 500px;
   text-align: center;
-  background-color: #f82bc1;
+  background-color: #e600a1;
   color: white;
   border: none;
   padding: 20px;
@@ -383,7 +383,7 @@ body {
   text-align: justify;
 }
 .pink {
-  color: #f82bc1;
+  color: #e600a1;
   font-weight: bold;
 }
 
@@ -412,7 +412,7 @@ body {
 }
 
 .timeline-text span {
-  color: #ff3ec8; /* pink */
+  color: #e600a1; /* pink */
   font-weight: bold;
 }
 
@@ -436,7 +436,7 @@ body {
 }
 
 .highlight {
-  color: #f82bc1;
+  color: #e600a1;
   font-weight: bold;
 }
 
@@ -507,7 +507,7 @@ body {
 .section-title {
   text-align: center;
   font-size: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .highlight {
@@ -583,11 +583,11 @@ body {
 /* Judul */
 .connect-section h2 {
   font-size: 2.5em;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .connect-section .highlight {
-  color: #e03bd8;
+  color: #e600a1;
 }
 
 /* Container untuk gambar + teks */
@@ -606,6 +606,6 @@ body {
 /* Teks username */
 .instagram-handle {
   font-weight: bold;
-  margin-top: 15px;
-  font-size: 1.2em;
+  margin-top: 5px;
+  font-size: 2.5em;
 }
