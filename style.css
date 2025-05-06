@@ -25,7 +25,7 @@
 /* Logo */
 .logo {
   margin-left: 20px;
-  height: 50px; /* sesuaikan dengan ukuran logo */
+  height: 20%; /* sesuaikan dengan ukuran logo */
 }
 
 /* Navigation Menu */
@@ -510,11 +510,6 @@ body {
   margin-bottom: 40px;
 }
 
-.highlight {
-  color: #e600a1;
-  font-weight: bold;
-}
-
 /* Box batik background */
 .batik-box {
   position: relative;
@@ -541,7 +536,7 @@ body {
 }
 
 /* Logo */
-.logo {
+.logo2 {
   height: 110px;
   object-fit: contain;
   flex-shrink: 0;
@@ -609,3 +604,4 @@ body {
   margin-top: 5px;
   font-size: 2.5em;
 }
+
