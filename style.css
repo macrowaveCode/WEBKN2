@@ -1,0 +1,478 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* Sticky Header */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: linear-gradient(to right, #d4d4ff, #f5ccff); /* gradasi ungu-pink */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 32px;
+  border-radius: 50px;
+  margin: 10px auto;
+  max-width: 1200px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Logo */
+.logo {
+  height: 50px; /* sesuaikan dengan ukuran logo */
+}
+
+/* Navigation Menu */
+.nav {
+  display: flex;
+  gap: 24px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+/* CTA Button */
+.cta-button img {
+  height: 45px; /* sesuaikan dengan tinggi tombol gambar */
+  border-radius: 999px;
+}
+
+/* Bendera dan Dropdown */
+.language-dropdown {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.flag-icon {
+  width: 24px;
+  height: auto;
+}
+
+.arrow {
+  font-size: 12px;
+}
+
+body {
+  background-color: #fff;
+}
+
+/* HERO SECTION */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+  min-height: 100vh;
+  background: url("assets/Hero\ Background.png") no-repeat center/cover; /* Gambar background */
+}
+
+/* Tulisan Hero */
+.hero-text {
+  max-width: 50%;
+  color: #000;
+}
+
+.hero-text h1 {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.highlight {
+  color: #ea3bc2; /* Warna pink sesuai desain */
+}
+
+.hero-text p {
+  margin: 20px 0;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Tombol CTA */
+.cta {
+  display: inline-block;
+  background-color: #ea3bc2;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Gambar Maskot */
+.hero-image {
+  position: relative;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.maskot {
+  height: 400px;
+}
+
+/* WHY US SECTION */
+.why-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  background-color: #fff;
+}
+
+/* Kiri: Gambar Robot dan Lingkaran Pink */
+.why-image {
+  position: relative;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* List isi Why Us */
+.why-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  font-size: 16px;
+  line-height: 1.8;
+}
+/*LK*/
+.intro {
+  text-align: center;
+  padding: 40px 20px;
+}
+.intro h1{
+  font-size: 40px;
+}
+.intro h1 span{
+  color: #ff4ec7;
+  font-weight: bold;
+}
+
+.intro h2{ 
+  font-size: 30px;
+}
+.intro h2 span {
+  color: #ff4ec7;
+  font-weight: bold;
+}
+
+.carousel-section {
+  position: relative;
+  background-color: #ffe5f2;
+  padding: 40px 0;
+  overflow: hidden;
+}
+
+.fixed-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  width: 180px;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.fixed-text h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  line-height: 1.3;
+}
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+  margin-left: 250px; /* Agar tidak tertutup oleh teks */
+  padding: 0 20px;
+  position: relative;
+}
+
+.carousel { 
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 20px 20px;
+  width: calc(100% - 40px); /* dikurangi tombol kiri dan kanan */
+} 
+
+.card {
+  min-width: 400px;
+  max-width: 400px;
+  flex: 0 0 auto;
+  background-color: white;
+  border-radius: 16px;
+  padding: 40px;  
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card p{
+  text-align: justify;
+}
+
+.carousel-btn {
+  background-color: #ff4ec7;
+  color: white;
+  font-size: 24px;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  z-index: 3;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-btn.left {
+/* Menyesuaikan posis i dengan teks tetap */
+  left: 200px;
+} 
+
+.carousel-btn.right {
+  right: 10px;
+}
+
+.card-title{
+  color: #ff4ec7;
+}
+
+/*JK*/
+.intro2 {
+  text-align: center;
+  padding: 40px 20px;
+}
+.intro2 h2{
+  font-size: 30px;
+}
+.intro2 h2 span {
+  color: #2787D6;
+  font-weight: bold;
+}
+
+.carousel-section2 {
+  position: relative;
+  background-color: #DAF3FF;
+  padding: 40px 0;
+  overflow: hidden;
+}
+
+.carousel-btn2 {
+  background-color: #0789D4;
+  color: white;
+  font-size: 24px;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  z-index: 3;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-btn2.left {
+  /* Menyesuaikan posis i dengan teks tetap */
+    left: 200px;
+  } 
+  
+  .carousel-btn2.right {
+    right: 10px;
+  }
+
+.card-title2{
+  color: #0789D4;
+  padding-inline: 40px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fdfdfd;
+}
+
+/* Tombol Gratis */
+.btn-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.gratis-btn {
+  background-color: #f82bc1;
+  color: white;
+  border: none;
+  padding: 20px;
+  border-radius: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Kontainer utama */
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  position: relative;
+  margin-top: 120px;
+}
+
+/* Setengah lingkaran pink */
+.left-decor {
+  position: relative;
+  width: 50%;
+}
+
+.semi-circle {
+  width: 400px;
+  height: 400px;
+  background-color: #ffddee;
+  border-radius: 50%;
+  position: absolute;
+  left: -250px;
+}
+
+/* Gambar dengan posisi mengelilingi setengah lingkaran */
+.hover-img {
+  position: absolute;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.img1 { top: -15px; left: 40px; width: 30%; }
+.img2 { top: 140px; left: 110px; width: 30%; }
+.img3 { top: 280px; left: 20px; width: 30%; }
+
+.hover-img:hover {
+  transform: scale(1.2);
+}
+
+/* Teks sebelah kanan */
+.right-text {
+  width: 90%;
+  margin-top: 25px;
+}
+.right-text.judul{
+  text-align: center;
+  font-size: 40px;
+}
+.right-text.paragraf{
+  text-align: justify;
+}
+.pink {
+  color: #f82bc1;
+  font-weight: bold;
+}
+
+/* Timeline */
+.timeline {
+  margin-top: 20px;
+}
+
+.year {
+  margin-bottom: 15px;
+}
+
+.year h4 span{
+  color: #f82bc1;
+}
+
+/* Section Lokasi Kami */
+.lokasi-section {
+  padding: 50px 20px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+/* Judul dan subjudul */
+.lokasi-title {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.highlight {
+  color: #f82bc1;
+  font-weight: bold;
+}
+
+.lokasi-subtitle {
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+/* Kontainer untuk semua card */
+.lokasi-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+/* Card individual */
+.lokasi-card {
+  background-color: rgba(255, 230, 250, 0.6); /* pastel pink transparan */
+  border-radius: 20px;
+  padding: 20px;
+  width: 280px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.lokasi-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Gambar dalam card */
+.lokasi-img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+/* Nama cabang */
+.lokasi-card h3 {
+  margin: 10px 0 5px;
+  font-size: 1.2em;
+  color: #222;
+}
+
+/* Alamat */
+.lokasi-card p {
+  font-size: 0.95em;
+  color: #333;
+  line-height: 1.4em;
+  margin-bottom: 10px;
+}
+
+/* Link Maps */
+.lokasi-link {
+  font-size: 0.95em;
+  color: #0a7dd8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.lokasi-link:hover {
+  text-decoration: underline;
+}
