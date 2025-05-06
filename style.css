@@ -109,9 +109,10 @@ body {
   color: white;
   padding: 14px 28px;
   border-radius: 30px;
-  text-decoration: none;
+  font-size: 20px;
   font-weight: bold;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  text-decoration: none;
 }
 
 /* Gambar Maskot */
@@ -225,6 +226,15 @@ body {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
+.carousel2 { 
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 20px 20px;
+  width: calc(100% - 40px); /* dikurangi tombol kiri dan kanan */
+} 
+
 .card p{
   text-align: justify;
 }
@@ -313,12 +323,11 @@ body {
 }
 
 /* Tombol Gratis */
-.btn-container {
-  text-align: center;
-  margin-top: 50px;
-}
-
 .gratis-btn {
+  position: relative;
+  margin-top: 50px;
+  left: 500px;
+  text-align: center;
   background-color: #f82bc1;
   color: white;
   border: none;
@@ -327,6 +336,7 @@ body {
   font-weight: bold;
   cursor: pointer;
   font-size: 20px;
+  text-decoration: none;
 }
 
 /* Kontainer utama */
@@ -335,7 +345,7 @@ body {
   justify-content: space-between;
   padding: 40px;
   position: relative;
-  margin-top: 120px;
+  margin-top: 100px;
 }
 
 /* Setengah lingkaran pink */
