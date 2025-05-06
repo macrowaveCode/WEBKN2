@@ -5,7 +5,9 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-
+section {
+  scroll-margin-top: 80px; /* Sesuaikan dengan tinggi header */
+}
 /* Sticky Header */
 .header {
   position: sticky;
@@ -314,9 +316,8 @@ body {
 
 /* Tombol Gratis */
 .gratis-btn {
-  position: relative;
-  margin-top: 50px;
-  left: 500px;
+  display: block;
+  margin: 50px auto;
   text-align: center;
   background-color: #e600a1;
   color: white;
@@ -327,6 +328,7 @@ body {
   cursor: pointer;
   font-size: 20px;
   text-decoration: none;
+  width: fit-content;
 }
 
 .gratis-btn:hover {
