@@ -11,7 +11,7 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  background: linear-gradient(to right, #d4d4ff, #f5ccff); /* gradasi ungu-pink */
+  background: white; 
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -24,7 +24,9 @@
 
 /* Logo */
 .logo {
+  margin-left: 20px;
   height: 50px; /* sesuaikan dengan ukuran logo */
+  box-shadow: 0 0 0 black;
 }
 
 /* Navigation Menu */
@@ -44,6 +46,7 @@
 .cta-button img {
   height: 45px; /* sesuaikan dengan tinggi tombol gambar */
   border-radius: 999px;
+  margin-right: -150px;
 }
 
 /* Bendera dan Dropdown */
