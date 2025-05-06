@@ -26,7 +26,6 @@
 .logo {
   margin-left: 20px;
   height: 50px; /* sesuaikan dengan ukuran logo */
-  box-shadow: 0 0 0 black;
 }
 
 /* Navigation Menu */
@@ -159,7 +158,7 @@ body {
   text-align: center;
   padding: 40px 20px;
 }
-.intro h1{
+.intro h1{                           
   font-size: 40px;
 }
 .intro h1 span{
@@ -222,18 +221,9 @@ body {
   flex: 0 0 auto;
   background-color: white;
   border-radius: 16px;
-  padding: 40px;  
+  padding: 35px;  
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
-
-.carousel2 { 
-  display: flex;
-  gap: 20px;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  padding: 20px 20px;
-  width: calc(100% - 40px); /* dikurangi tombol kiri dan kanan */
-} 
 
 .card p{
   text-align: justify;
@@ -382,11 +372,12 @@ body {
 /* Teks sebelah kanan */
 .right-text {
   width: 90%;
-  margin-top: 25px;
+  margin-top: -10px;
 }
 .right-text.judul{
   text-align: center;
   font-size: 40px;
+  margin-bottom: 40px;
 }
 .right-text.paragraf{
   text-align: justify;
@@ -399,15 +390,37 @@ body {
 /* Timeline */
 .timeline {
   margin-top: 20px;
+  margin-right: 60px;
 }
 
-.year {
-  margin-bottom: 15px;
+.timeline-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 24px;
 }
 
-.year h4 span{
-  color: #f82bc1;
+.timeline-icon {
+  width: 50px;
+  height: 40px;
+  margin-right: 16px;
+  flex-shrink: 0;
 }
+
+.timeline-text h4 {
+  margin: 0 0 6px;
+  font-weight: bold;
+}
+
+.timeline-text span {
+  color: #ff3ec8; /* pink */
+  font-weight: bold;
+}
+
+.timeline-text p {
+  margin: 0;
+  color: #333;
+}
+
 
 /* Section Lokasi Kami */
 .lokasi-section {
@@ -418,7 +431,7 @@ body {
 
 /* Judul dan subjudul */
 .lokasi-title {
-  font-size: 2.5em;
+  font-size: 40px;
   margin-bottom: 10px;
 }
 
