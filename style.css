@@ -329,6 +329,10 @@ body {
   text-decoration: none;
 }
 
+.gratis-btn:hover {
+  transform: scale(1.05);
+}
+
 /* Kontainer utama */
 .content-container {
   display: flex;
@@ -537,7 +541,7 @@ body {
 
 /* Logo */
 .logo2 {
-  height: 110px;
+  height: 130px;
   object-fit: contain;
   flex-shrink: 0;
 }
@@ -603,5 +607,37 @@ body {
   font-weight: bold;
   margin-top: 5px;
   font-size: 2.5em;
+}
+
+/* Section dengan gambar background */
+.trial-section {
+  background: url('assets/1.\ background.png') no-repeat center/cover; /* Ganti path ini */
+  padding: 60px 20px;
+  text-align: center;
+  margin: 20px;
+  border-radius: 12px;
+}
+
+/* Judul */
+.trial-content h2 {
+  font-size: 40px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+/* Teks warna pink */
+.highlight {
+  color: #ff00a8;
+}
+
+/* Gambar tombol */
+.button-image {
+  width: 400px; /* Sesuaikan ukuran tombol jika perlu */
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.button-image:hover {
+  transform: scale(1.05);
 }
 
