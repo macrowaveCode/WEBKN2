@@ -534,7 +534,7 @@ body {
   display: flex;
   overflow-x: auto;
   scroll-behavior: smooth;
-  gap: 60px;
+  gap: 80px;
   padding: 40px;
   background: white;
   border-radius: 16px;
@@ -543,7 +543,7 @@ body {
 
 /* Logo */
 .logo2 {
-  height: 130px;
+  height: 100px;
   object-fit: contain;
   flex-shrink: 0;
 }
@@ -577,18 +577,14 @@ body {
 /* Bagian section utama */
 .connect-section {
   background-color: #ffffff;
-  padding: 60px 20px;
   text-align: center;
+  margin-top: 70px;
 }
 
 /* Judul */
 .connect-section h2 {
-  font-size: 2.5em;
+  font-size: 40px;
   margin-bottom: 20px;
-}
-
-.connect-section .highlight {
-  color: #e600a1;
 }
 
 /* Container untuk gambar + teks */
@@ -607,16 +603,16 @@ body {
 /* Teks username */
 .instagram-handle {
   font-weight: bold;
-  margin-top: 5px;
-  font-size: 2.5em;
+  margin-top: -5px;
+  font-size: 50px;
+  color: #400034;
 }
 
 /* Section dengan gambar background */
 .trial-section {
   background: url('assets/1.\ background.png') no-repeat center/cover; /* Ganti path ini */
-  padding: 60px 20px;
+  padding: 40px 20px;
   text-align: center;
-  margin: 20px;
   border-radius: 12px;
 }
 
@@ -625,11 +621,6 @@ body {
   font-size: 40px;
   color: #000;
   margin-bottom: 20px;
-}
-
-/* Teks warna pink */
-.highlight {
-  color: #ff00a8;
 }
 
 /* Gambar tombol */
@@ -643,3 +634,56 @@ body {
   transform: scale(1.05);
 }
 
+.footer {
+  background: linear-gradient(to right, #d4d4ff, #f5ccff); /* gradasi ungu-pink */; 
+  padding: 80px 20px;
+  font-family: sans-serif;
+  color: black;
+  font-size: 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.footer-logo img {
+  width: 130px;
+}
+
+.footer-section a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  margin-bottom: 6px;
+  font-size: 20px;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.footer-section p {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer-bottom .social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.footer-bottom img {
+  width: 20px;
+  height: 20px;
+}
