@@ -78,7 +78,7 @@ body {
   justify-content: space-between;
   padding: 60px;
   min-height: 100vh;
-  background: url("assets/Hero\ Background.png") no-repeat center/cover; /* Gambar background */
+  background: url("assets/Hero\ Background.webp") no-repeat center/cover; /* Gambar background */
 }
 
 /* Tulisan Hero */
@@ -519,7 +519,7 @@ body {
 /* Box batik background */
 .batik-box {
   position: relative;
-  background-image: url('assets/begron\ batik\ logo.png'); /* ← ganti dengan background kamu */
+  background-image: url('assets/begron\ batik\ logo.webp'); /* ← ganti dengan background kamu */
   background-size: cover;
   background-repeat: no-repeat;
   padding: 30px 20px;
@@ -610,7 +610,7 @@ body {
 
 /* Section dengan gambar background */
 .trial-section {
-  background: url('assets/1.\ background.png') no-repeat center/cover; /* Ganti path ini */
+  background: url('assets/1.\ background.webp') no-repeat center/cover; /* Ganti path ini */
   padding: 40px 20px;
   text-align: center;
   border-radius: 12px;
