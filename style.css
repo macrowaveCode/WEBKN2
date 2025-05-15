@@ -32,6 +32,7 @@ section {
   padding: 12px 32px;
   max-width: 1200px;
   margin: auto;
+  gap: 32px;
 }
 
 
@@ -84,7 +85,19 @@ section {
     text-decoration: none;
     font-weight: bold;
 }
+/* Wrapper untuk language dan CTA */
+.action-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Jarak antar elemen */
+}
 
+/* Sesuaikan padding agar lebih rapat di mobile */
+@media (max-width: 768px) {
+    .action-wrapper {
+        gap: 8px;
+    }
+}
 /* Mobile View */
 @media (max-width: 768px) {
     .nav {
@@ -108,6 +121,9 @@ section {
     .burger {
         display: block; /* Burger menu hanya muncul di mobile */
     }
+    .header-wrapper {
+    border-radius: 0px;
+  }
 }
 
 /* HERO SECTION */
