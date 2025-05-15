@@ -59,12 +59,17 @@
 </head>
 <body>
 
-  <header class="header">
+<header class="header">
     <!-- Logo -->
     <img src="assets/Logo.webp" alt="Logo Koding Next" class="logo" />
 
-    <!-- Navigation -->
-    <nav class="nav">
+    <!-- Burger Menu Icon -->
+    <div class="burger-menu" onclick="toggleMenu()">
+        &#9776;
+    </div>
+
+    <!-- Navigation (Hidden by Default) -->
+    <nav class="nav" id="nav-menu">
         <a href="#beranda">Beranda</a>
         <a href="#kursus">Kursus</a>
         <a href="#tentang">Tentang Kami</a>

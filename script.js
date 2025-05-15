@@ -1,8 +1,14 @@
+function toggleMenu() {
+        const navMenu = document.getElementById('nav-menu');
+        navMenu.classList.toggle('active');
+    }
+
 // Kalau kamu ingin menambahkan interaksi dropdown bahasa nantinya
 document.querySelector(".language-dropdown").addEventListener("click", function () {
     alert("Fitur pilih bahasa coming soon!");
   });
-  
+
+
   function scrollCarousel(direction, buttonElement) {
     const carousel = buttonElement.closest('.carousel-section, .carousel-section2').querySelector('.carousel');
     const scrollAmount = 420;

@@ -30,7 +30,13 @@ section {
     height: 50px;
 }
 
-/* Navigation Menu */
+/* Burger Menu */
+.burger-menu {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
 .nav {
     display: flex;
     gap: 16px;
@@ -78,14 +84,30 @@ section {
 /* Responsive Navigation */
 @media (max-width: 768px) {
     .nav {
+        display: none;
+        flex-direction: column;
         gap: 8px;
+        position: absolute;
+        top: 70px;
+        right: 20px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+    }
+
+    .nav.active {
+        display: flex;
+    }
+
+    .burger-menu {
+        display: block;
     }
 }
 
 @media (max-width: 480px) {
     .header {
-        flex-direction: column;
-        gap: 8px;
+        justify-content: space-between;
     }
 }
 
