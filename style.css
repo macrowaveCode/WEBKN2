@@ -8,67 +8,85 @@
 section {
   scroll-margin-top: 80px; /* Sesuaikan dengan tinggi header */
 }
+
 /* Sticky Header */
 .header {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  background: white; 
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 12px 32px;
-  border-radius: 50px;
-  margin: 10px auto;
-  max-width: 1200px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    margin: 10px auto;
+    max-width: 1200px;
 }
 
 /* Logo */
 .logo {
-  margin-left: 20px;
-  height: 20%; /* sesuaikan dengan ukuran logo */
+    height: 50px;
 }
 
 /* Navigation Menu */
 .nav {
-  display: flex;
-  gap: 24px;
+    display: flex;
+    gap: 16px;
 }
 
 .nav a {
-  text-decoration: none;
-  color: #000;
-  font-weight: bold;
-  font-family: sans-serif;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-family: sans-serif;
 }
 
-/* CTA Button */
-.cta-button img {
-  height: 45px; /* sesuaikan dengan tinggi tombol gambar */
-  border-radius: 999px;
-  margin-right: -150px;
+/* Header Right: CTA Button + Language */
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
 
-/* Bendera dan Dropdown */
+.cta-button {
+    background-color: #f78c30;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
 .language-dropdown {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
 }
 
 .flag-icon {
-  width: 24px;
-  height: auto;
+    width: 24px;
+    height: auto;
 }
 
 .arrow {
-  font-size: 12px;
+    font-size: 12px;
 }
 
-body {
-  background-color: #fff;
+/* Responsive Navigation */
+@media (max-width: 768px) {
+    .nav {
+        gap: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        flex-direction: column;
+        gap: 8px;
+    }
 }
 
 /* HERO SECTION */
