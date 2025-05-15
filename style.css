@@ -10,6 +10,11 @@ html, body {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fdfdfd;
+}
 section {
     scroll-margin-top: 80px; /* Sesuaikan dengan tinggi header kamu */
 }
@@ -463,10 +468,54 @@ section {
   padding-inline: 40px;
 }
 
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #fdfdfd;
+@media (max-width: 768px) {
+  .intro, .intro2 {
+    padding: 20px 10px;
+    text-align: center;
+  }
+
+  .intro h1, .intro2 h2 {
+    font-size: 24px;
+  }
+
+  .carousel-container {
+    margin-left: 0;
+    padding: 0 10px;
+  }
+
+  .carousel {
+    gap: 10px;
+    padding: 20px 0;
+  }
+
+  .card {
+    min-width: 280px;
+    max-width: 280px;
+    padding: 20px;
+  }
+
+  .card h1, .card h4 {
+    font-size: 18px;
+  }
+
+  .card p {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .carousel-btn, .carousel-btn2 {
+    width: 36px;
+    height: 36px;
+    font-size: 20px;
+  }
+
+  .carousel-btn.left, .carousel-btn2.left {
+    left: 10px;
+  }
+
+  .carousel-btn.right, .carousel-btn2.right {
+    right: 10px;
+  }
 }
 
 /* Tombol Gratis */
