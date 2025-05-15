@@ -1,26 +1,39 @@
-/* Reset */
+/* PRESET HALAMAN HTML */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+section {
+    scroll-margin-top: 80px; /* Sesuaikan dengan tinggi header kamu */
+}
 
 /* Sticky Header */
-.header {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    background: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 12px 32px;
-    border-radius: 50px;
-    margin: 10px auto;
-    max-width: 1200px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+.header-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
+
+/* Header tetap pakai max-width dan border-radius, tapi tidak sticky */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 32px;
+  max-width: 1200px;
+  margin: auto;
+  border-radius: 50px;
+}
+
 
 /* Logo */
 .logo {
@@ -82,11 +95,9 @@
         width: 100%;
         background: white;
         flex-direction: column;
-        border-radius: 0;
-        margin-top: 0px;
         gap: 10px;
         z-index: 99;
-        padding: 0px 12px;   /* Lebih kecil di mobile */
+        padding: 8px 12px;   /* Lebih kecil di mobile */
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     }
 
