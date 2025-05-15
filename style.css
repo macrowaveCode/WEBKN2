@@ -190,6 +190,45 @@ section {
 .maskot {
   height: 400px;
 }
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    padding: 40px 20px;
+    text-align: center;
+    background: url("assets/Hero\ Background.webp") no-repeat center/cover;
+  }
+
+  .hero-text {
+    max-width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+    line-height: 1.4;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .cta {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+
+  .hero-image {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .maskot {
+    height: auto;
+    max-width: 80%;
+  }
+}
+
 
 /* WHY US SECTION */
 .why-us {
