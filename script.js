@@ -1,7 +1,10 @@
-function toggleMenu() {
-        const navMenu = document.getElementById('nav-menu');
-        navMenu.classList.toggle('active');
-    }
+const burger = document.getElementById('burger-menu');
+const nav = document.getElementById('nav-menu');
+
+burger.addEventListener('click', () => {
+nav.classList.toggle('active');
+});
+
 
 // Kalau kamu ingin menambahkan interaksi dropdown bahasa nantinya
 document.querySelector(".language-dropdown").addEventListener("click", function () {

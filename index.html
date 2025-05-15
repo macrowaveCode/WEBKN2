@@ -61,14 +61,16 @@
 
 <header class="header">
     <!-- Logo -->
-    <img src="assets/Logo.webp" alt="Logo Koding Next" class="logo" />
-
-    <!-- Burger Menu Icon -->
-    <div class="burger-menu" onclick="toggleMenu()">
-        &#9776;
+    <div class="logo-container">
+        <img src="assets/Logo.webp" alt="Logo Koding Next" class="logo">
     </div>
 
-    <!-- Navigation (Hidden by Default) -->
+    <!-- Burger Menu for Mobile -->
+    <div class="burger" id="burger-menu">
+        ☰
+    </div>
+
+    <!-- Navigation (Desktop & Mobile) -->
     <nav class="nav" id="nav-menu">
         <a href="#beranda">Beranda</a>
         <a href="#kursus">Kursus</a>
@@ -77,13 +79,15 @@
         <a href="#partnership">Partnership</a>
     </nav>
 
-    <!-- Call to Action & Language -->
-    <div class="header-right">
-        <a href="https://forms.gle/8gG3vBHmjKBCCWdr6" class="cta-button">Hubungi Kami</a>
-        <div class="language-dropdown">
-            <img src="https://flagcdn.com/w40/id.png" alt="ID Flag" class="flag-icon" />
-            <div class="arrow">&#9662;</div>
-        </div>
+    <!-- Call to Action -->
+    <a href="https://forms.gle/8gG3vBHmjKBCCWdr6" class="cta-button">
+        Hubungi Kami
+    </a>
+
+    <!-- Dropdown Bendera -->
+    <div class="language-dropdown">
+        <img src="https://flagcdn.com/w40/id.png" alt="ID Flag" class="flag-icon">
+        <div class="arrow">&#9662;</div>
     </div>
 </header>
 

@@ -18,53 +18,39 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 12px 24px;
+    padding: 12px 20px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    border-radius: 50px;
-    margin: 10px auto;
-    max-width: 1200px;
 }
 
 /* Logo */
 .logo {
-    height: 50px;
+    height: 40px;
 }
 
-/* Burger Menu */
-.burger-menu {
-    display: none;
-    font-size: 24px;
-    cursor: pointer;
-}
-
+/* Navigation Menu (Desktop) */
 .nav {
     display: flex;
-    gap: 16px;
+    gap: 20px;
 }
 
 .nav a {
     text-decoration: none;
     color: #000;
-    font-weight: 600;
-    font-family: sans-serif;
+    font-weight: bold;
+    padding: 8px;
 }
 
-/* Header Right: CTA Button + Language */
-.header-right {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-}
-
+/* CTA Button */
 .cta-button {
-    background-color: #f78c30;
+    background-color: #ff5722;
     color: white;
     padding: 8px 16px;
     border-radius: 20px;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: bold;
 }
 
+/* Bendera dan Dropdown */
 .language-dropdown {
     display: flex;
     align-items: center;
@@ -74,38 +60,42 @@ section {
 
 .flag-icon {
     width: 24px;
-    height: auto;
 }
 
 .arrow {
     font-size: 12px;
 }
 
-/* Responsive Navigation */
+/* Burger Menu (Mobile) */
+.burger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Mobile View */
 @media (max-width: 768px) {
     .nav {
-        display: none;
-        flex-direction: column;
-        gap: 8px;
         position: absolute;
-        top: 70px;
-        right: 20px;
-        background-color: white;
-        border-radius: 10px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        top: 60px;
+        right: 0;
+        background: white;
+        flex-direction: column;
+        gap: 10px;
         padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        display: none;
     }
 
     .nav.active {
         display: flex;
     }
 
-    .burger-menu {
+    .burger {
         display: block;
     }
-}
 
-@media (max-width: 480px) {
     .header {
         justify-content: space-between;
     }
