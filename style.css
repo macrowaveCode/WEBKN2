@@ -1,12 +1,9 @@
-/* Reset dasar */
+/* Reset */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
-section {
-  scroll-margin-top: 80px; /* Sesuaikan dengan tinggi header */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 /* Sticky Header */
@@ -18,13 +15,13 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 12px 20px;
+    padding: 10px 20px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 /* Logo */
 .logo {
-    height: 40px;
+    height: 35px;
 }
 
 /* Navigation Menu (Desktop) */
@@ -35,19 +32,15 @@ section {
 
 .nav a {
     text-decoration: none;
-    color: #000;
+    color: #333;
     font-weight: bold;
-    padding: 8px;
 }
 
-/* CTA Button */
-.cta-button {
-    background-color: #ff5722;
-    color: white;
-    padding: 8px 16px;
-    border-radius: 20px;
-    text-decoration: none;
-    font-weight: bold;
+/* Burger Menu (Hidden on Desktop) */
+.burger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
 }
 
 /* Bendera dan Dropdown */
@@ -66,38 +59,38 @@ section {
     font-size: 12px;
 }
 
-/* Burger Menu (Mobile) */
-.burger {
-    display: none;
-    font-size: 24px;
-    cursor: pointer;
+/* CTA Button */
+.cta-button {
+    background-color: #e600a1;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 /* Mobile View */
 @media (max-width: 768px) {
     .nav {
+        display: none; /* Di mobile, navigasi disembunyikan */
         position: absolute;
         top: 60px;
-        right: 0;
+        left: 0;
+        width: 100%;
         background: white;
         flex-direction: column;
         gap: 10px;
-        padding: 10px;
-        border-radius: 8px;
+        padding: 10px 20px;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-        display: none;
+        z-index: 99;
     }
 
     .nav.active {
-        display: flex;
+        display: flex; /* Muncul jika burger di klik */
     }
 
     .burger {
-        display: block;
-    }
-
-    .header {
-        justify-content: space-between;
+        display: block; /* Burger menu hanya muncul di mobile */
     }
 }
 
