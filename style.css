@@ -20,6 +20,7 @@ section {
   top: 0;
   z-index: 100;
   background: white;
+  border-radius: 50px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
@@ -31,7 +32,6 @@ section {
   padding: 12px 32px;
   max-width: 1200px;
   margin: auto;
-  border-radius: 50px;
 }
 
 
