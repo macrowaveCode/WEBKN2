@@ -122,7 +122,7 @@ section {
     width: 100%;
     max-width: none;  /* Tambahkan ini untuk override max-width desktop */
     margin: 0;        /* Hindari auto centering yang bikin sempit */
-    padding: 0 10px;  /* Opsional, biar ada space kanan kiri */
+    padding: 0 6px;  /* Opsional, biar ada space kanan kiri */
     border-radius: 0;
     gap: 0px;
     }
