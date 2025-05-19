@@ -443,10 +443,10 @@ section {
   text-align: center;
   padding: 40px 20px;
 }
-.intro2 h2{
+.intro2 h3{
   font-size: 30px;
 }
-.intro2 h2 span {
+.intro2 h3 span {
   color: #2787D6;
   font-weight: bold;
 }
@@ -674,6 +674,53 @@ section {
   color: #333;
 }
 
+/* Media Queries untuk tampilan mobile */
+@media (max-width: 768px) {
+  .content-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .left-decor {
+    width: 100%;
+    position: relative;
+    text-align: center;
+  }
+
+  .semi-circle {
+    width: 300px;
+    height: 300px;
+    left: -100px; /* Sesuaikan posisi */
+  }
+
+  .hover-img {
+    width: 80%; /* Sesuaikan ukuran gambar */
+    position: relative; /* Ubah posisi menjadi relative */
+    margin: 10px auto; /* Pusatkan gambar */
+  }
+
+  .right-text {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .right-text.judul {
+    font-size: 30px; /* Sesuaikan ukuran font */
+  }
+
+  .timeline {
+    margin-right: 0; /* Hapus margin kanan */
+  }
+
+  .timeline-item {
+    flex-direction: column; /* Ubah arah menjadi kolom */
+    align-items: center; /* Pusatkan item */
+  }
+
+  .timeline-icon {
+    margin-bottom: 8px; /* Tambahkan jarak di bawah ikon */
+  }
+}
 
 /* Section Lokasi Kami */
 .lokasi-section {
