@@ -835,13 +835,76 @@ section {
 }
 
 @media (max-width: 768px) {
-  .lokasi-title{
-    font-size: 30px;  
+  /* Section Lokasi Kami */
+  .lokasi-section {
+    padding: 20px 10px;
+    text-align: center;
+    background-color: #f9f9f9;
   }
+
+  .lokasi-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
   .lokasi-subtitle {
     font-size: 16px;
+    margin-bottom: 20px;
+    color: #666;
+  }
+
+  /* Container Lokasi */
+  .lokasi-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  /* Card Lokasi */
+  .lokasi-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    margin-bottom: 15px;
+  }
+
+  .lokasi-card:hover {
+    transform: translateY(-3px);
+  }
+
+  .lokasi-img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #eee;
+  }
+
+  .lokasi-card h3 {
+    font-size: 20px;
+    margin: 12px 0 5px;
+    color: #333;
+  }
+
+  .lokasi-card p {
+    font-size: 15px;
+    margin-bottom: 10px;
     color: #555;
-    margin-bottom: 50px;
+  }
+
+  .lokasi-link {
+    display: inline-block;
+    padding: 8px 15px;
+    margin-bottom: 12px;
+    background-color: #e600a1;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+  }
+
+  .lokasi-link:hover {
+    background-color: #d4008a;
   }
 }
 
@@ -1099,9 +1162,9 @@ section {
     align-items: center;
     gap: 20px;
     text-align: center;
-    background-color: #f8f9fa;
     padding: 25px 15px;
     border-top: 2px solid #eee;
+    background-color: transparent; /* Menghilangkan background putih */
   }
 
   /* Logo Footer */
