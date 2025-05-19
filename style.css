@@ -1202,6 +1202,10 @@ section {
     display: block;
   }
 
+  .footer-section p{
+    font-size: 12px;
+  }
+  
   .footer-section a:hover {
     color: #e600a1;
     text-decoration: underline;
