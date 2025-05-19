@@ -516,7 +516,7 @@ section {
   }
 
   .carousel-container {
-    margin-left: 0px;
+    margin-left: none;
     padding: 0 16px;
   }
 
