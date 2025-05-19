@@ -515,22 +515,11 @@ section {
     display: none; /* disembunyikan untuk tampilan mobile agar tidak mengganggu */
   }
 
-  .carousel-container {
-    margin-left: 0px;
-    padding: 0px 16px;
-  }
-
   .carousel {
     gap: 16px;
     padding: 16px 0;
   }
 
-  .card {
-    min-width: 100%;
-    max-width: 100%;
-    padding: 20px;
-    box-sizing: border-box; /* Penting agar padding tidak menambah total lebar */
-  }
   .card h2, .card h4 {
     margin-bottom: 12px;
   }
@@ -553,6 +542,22 @@ section {
 
   .fixed-text {
     display: none;
+  }
+
+  .card {
+    min-width: unset !important;
+    max-width: unset !important;
+    width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  .carousel-container {
+    margin-left: 0 !important;
+    padding: 0 16px !important;
+  }
+
+  .carousel {
+    padding: 16px 0 !important;
   }
 }
 
