@@ -684,10 +684,7 @@ section {
   }
 
   .left-decor {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    position: relative;
+    display: none;
   }
 
   .semi-circle {
