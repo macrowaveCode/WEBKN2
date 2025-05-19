@@ -844,7 +844,8 @@ section {
     margin-bottom: 50px;
   }
 }
-/* Heading */
+
+/* SECTION PARTNER KAMI */
 .section-title {
   text-align: center;
   font-size: 40px;
@@ -908,8 +909,16 @@ section {
 .arrow-right {
   border-left: 15px solid black;
 }
+@media (max-width: 768px) {
+  .section-title {
+  font-size: 30px;
+  }
+.batik-box {
+  border-radius: 0px;
+  } 
+}
 
-/* Bagian section utama */
+/* CONNECT WITH US SECTION */
 .connect-section {
   background-color: #ffffff;
   text-align: center;
@@ -919,7 +928,7 @@ section {
 /* Judul */
 .connect-section h2 {
   font-size: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 30px; /* Diperbesar sedikit agar seimbang */
 }
 
 /* Container untuk gambar + teks */
@@ -927,20 +936,41 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 15px; /* Menambah jarak antara gambar dan teks */
 }
 
 /* Gambar utama */
 .connect-image {
-  max-width: 100%;
+  max-width: 90%; /* Supaya lebih besar tapi tetap responsif */
   height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Teks username */
 .instagram-handle {
   font-weight: bold;
-  margin-top: -5px;
   font-size: 50px;
   color: #400034;
+  margin-top: 10px; /* Sedikit ditambah agar tidak terlalu rapat */
+}
+
+/* Responsive Mobile */
+@media (max-width: 768px) {
+  .connect-section h2 {
+    font-size: 30px;
+    margin-bottom: 20px; /* Disesuaikan agar tetap proporsional */
+  }
+
+  .instagram-handle {
+    font-size: 30px;
+    margin-top: 5px;
+    color: #400034;
+  }
+
+  .connect-image {
+    max-width: 100%; /* Supaya lebih besar di mobile */
+  }
 }
 
 /* Section dengan gambar background */
