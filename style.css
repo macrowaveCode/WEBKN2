@@ -679,24 +679,37 @@ section {
   .content-container {
     flex-direction: column;
     padding: 20px;
+    margin-top: 50px;
   }
 
   .left-decor {
     width: 100%;
+    display: flex;
+    justify-content: center;
     position: relative;
-    text-align: center;
   }
 
   .semi-circle {
-    width: 300px;
-    height: 300px;
-    left: -100px; /* Sesuaikan posisi */
+    width: 200px;
+    height: 200px;
+    left: 0;
   }
 
   .hover-img {
-    width: 80%; /* Sesuaikan ukuran gambar */
-    position: relative; /* Ubah posisi menjadi relative */
-    margin: 10px auto; /* Pusatkan gambar */
+    width: 25%;
+  }
+
+  .img1 {
+    top: -20px;
+    left: 15px;
+  }
+  .img2 {
+    top: 60px;
+    left: 40px;
+  }
+  .img3 {
+    top: 120px;
+    left: 0px;
   }
 
   .right-text {
@@ -705,20 +718,22 @@ section {
   }
 
   .right-text.judul {
-    font-size: 30px; /* Sesuaikan ukuran font */
+    font-size: 32px;
+    margin-bottom: 20px;
   }
 
   .timeline {
-    margin-right: 0; /* Hapus margin kanan */
+    margin-top: 20px;
+    margin-right: 0;
   }
 
   .timeline-item {
-    flex-direction: column; /* Ubah arah menjadi kolom */
-    align-items: center; /* Pusatkan item */
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .timeline-icon {
-    margin-bottom: 8px; /* Tambahkan jarak di bawah ikon */
+    margin-bottom: 8px;
   }
 }
 
