@@ -320,18 +320,18 @@ section {
   text-align: center;
   padding: 40px 20px;
 }
-.intro h1{                           
+.intro h2{                           
   font-size: 40px;
 }
-.intro h1 span{
+.intro h2 span{
   color: #e600a1;
   font-weight: bold;
 }
 
-.intro h2{ 
+.intro h3{ 
   font-size: 30px;
 }
-.intro h2 span {
+.intro h3 span {
   color: #e600a1;
   font-weight: bold;
 }
@@ -474,17 +474,15 @@ section {
     text-align: center;
   }
 
-  .intro h1, .intro2 h2 {
-    font-size: 20px;
+  .intro h2, .intro2 h2 {
+    font-size: 40px;
   }
 
   .fixed-text {
     display: none;
   }
-  
   .carousel-container {
     margin-left: 0;
-    padding: 0 10px;
   }
 
   .carousel {
@@ -498,7 +496,7 @@ section {
     padding: 20px;
   }
 
-  .card h1, .card h4 {
+  .card h2, .card h4 {
     font-size: 18px;
   }
 
@@ -508,14 +506,6 @@ section {
   }
 
   .carousel-btn, .carousel-btn2 {
-    display: none;
-  }
-
-  .carousel-btn.left, .carousel-btn2.left {
-    display: none;
-  }
-
-  .carousel-btn.right, .carousel-btn2.right {
     display: none;
   }
 }
