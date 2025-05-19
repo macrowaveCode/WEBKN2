@@ -912,7 +912,7 @@ section {
 @media (max-width: 768px) {
    .section-title {
     font-size: 28px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
   .batik-box {
     border-radius: 0px;
@@ -979,7 +979,7 @@ section {
   .connect-image {
     max-width: 100%;
     height: auto;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
 
   .instagram-handle {
