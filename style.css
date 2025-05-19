@@ -318,20 +318,20 @@ section {
 /*LK*/
 .intro {
   text-align: center;
-  padding: 40px 20px;
+  padding: 40px 20px 0 20px;
 }
-.intro h1{                           
+.intro h2{                           
   font-size: 40px;
 }
-.intro h1 span{
+.intro h2 span{
   color: #e600a1;
   font-weight: bold;
 }
 
-.intro h2{ 
+.intro h3{ 
   font-size: 30px;
 }
-.intro h2 span {
+.intro h3 span {
   color: #e600a1;
   font-weight: bold;
 }
