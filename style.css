@@ -516,8 +516,8 @@ section {
   }
 
   .carousel-container {
-    margin-right: 0px;
-    padding: 0px;
+    margin-left: 0px;
+    padding: 0px 16px;
   }
 
   .carousel {
@@ -526,13 +526,11 @@ section {
   }
 
   .card {
-    min-width: 90%;
-    max-width: 90%;
+    min-width: 100%;
+    max-width: 100%;
     padding: 20px;
-    border-radius: 20px;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+    box-sizing: border-box; /* Penting agar padding tidak menambah total lebar */
   }
-
   .card h2, .card h4 {
     margin-bottom: 12px;
   }
@@ -549,6 +547,12 @@ section {
 
   .card-title, .card-title2 {
     padding-inline: 0;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .fixed-text {
+    display: none;
   }
 }
 
