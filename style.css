@@ -910,15 +910,22 @@ section {
   border-left: 15px solid black;
 }
 @media (max-width: 768px) {
-  .section-title {
-  font-size: 30px;
+   .section-title {
+    font-size: 28px;
+    margin-bottom: 20px;
   }
-.batik-box {
-  border-radius: 0px;
-  } 
+  .batik-box {
+    border-radius: 0px;
+    padding: 20px 10px;
+  }
+  
+  /* Logo Scroll Area */
+  .logo-scroll {
+    gap: 40px;
+    padding: 20px;
+  }
 }
 
-/* CONNECT WITH US SECTION */
 /* CONNECT WITH US SECTION */
 .connect-section {
   background-color: #ffffff;
@@ -958,19 +965,24 @@ section {
 
 /* Responsive Mobile */
 @media (max-width: 768px) {
-  .connect-section h2 {
-    font-size: 30px;
-    margin-bottom: 20px; /* Disesuaikan agar tetap proporsional */
+  .connect-section {
+    margin-top: 50px;
+    padding: 10px;
   }
 
-  .instagram-handle {
-    font-size: 30px;
-    margin-top: 5px;
-    color: #400034;
+  .connect-section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
   }
 
   .connect-image {
-    max-width: 110%; /* Supaya lebih besar di mobile */
+    max-width: 100%;
+    height: auto;
+  }
+
+  .instagram-handle {
+    font-size: 28px;
+    margin-top: 5px;
   }
 }
 
@@ -1001,21 +1013,21 @@ section {
 }
 
 @media (max-width: 768px) {
-  /* Section dengan gambar background */
   .trial-section {
-    background-size: contain; /* Mengubah dari cover ke contain agar tidak terpotong */
-    padding: 20px 10px;
+    background-size: cover; /* Mengubah ke cover biar penuh */
+    background-position: center;
+    padding: 30px 15px;
+    border-radius: 12px;
   }
 
-  /* Judul */
   .trial-content h2 {
-    font-size: 28px; /* Diperkecil agar lebih seimbang di layar kecil */
+    font-size: 28px;
     margin-bottom: 15px;
   }
 
-  /* Gambar tombol */
   .button-image {
-    width: 250px; /* Diperkecil ukurannya */
+    width: 90%; /* Menyesuaikan lebar tombol dengan layar */
+    max-width: 300px;
   }
 }
 
