@@ -912,11 +912,12 @@ section {
 @media (max-width: 768px) {
    .section-title {
     font-size: 28px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .batik-box {
     border-radius: 0px;
     padding: 20px 10px;
+    margin-bottom: 50px;
   }
   
   /* Logo Scroll Area */
@@ -978,6 +979,7 @@ section {
   .connect-image {
     max-width: 100%;
     height: auto;
+    margin-bottom: 30px;
   }
 
   .instagram-handle {
