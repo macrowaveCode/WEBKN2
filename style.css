@@ -209,17 +209,18 @@ section {
   }
 
   .hero-text h1 {
+    font-size: 30px;
     font-size: 28px;
     line-height: 1.4;
   }
 
   .hero-text p {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.6;
   }
 
   .cta {
-    font-size: 16px;
+    font-size: 20px;
     padding: 12px 24px;
   }
 
@@ -295,7 +296,7 @@ section {
   }
 
   .why-title img {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
   }
 
@@ -306,12 +307,12 @@ section {
   }
 
   .why-list li {
-    background-color: #f9f9f9;
+    background-color:#f5ccff;
     margin-bottom: 10px;
     padding: 12px 16px;
     border-radius: 10px;
     font-size: 16px;
-    color: #333;
+    color: #000000;
   }
 }
 
@@ -475,8 +476,9 @@ section {
   }
 
   .intro h2, .intro2 h2 {
-    font-size: 40px;
+    font-size: 30px;
   }
+
 
   .fixed-text {
     display: none;
