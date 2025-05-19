@@ -970,7 +970,7 @@ section {
   }
 
   .connect-image {
-    max-width: 100%; /* Supaya lebih besar di mobile */
+    max-width: 110%; /* Supaya lebih besar di mobile */
   }
 }
 
@@ -998,6 +998,25 @@ section {
 
 .button-image:hover {
   transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  /* Section dengan gambar background */
+  .trial-section {
+    background-size: contain; /* Mengubah dari cover ke contain agar tidak terpotong */
+    padding: 20px 10px;
+  }
+
+  /* Judul */
+  .trial-content h2 {
+    font-size: 28px; /* Diperkecil agar lebih seimbang di layar kecil */
+    margin-bottom: 15px;
+  }
+
+  /* Gambar tombol */
+  .button-image {
+    width: 250px; /* Diperkecil ukurannya */
+  }
 }
 
 .footer {
