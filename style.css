@@ -318,20 +318,20 @@ section {
 /*LK*/
 .intro {
   text-align: center;
-  padding: 40px 20px 0 20px;
+  padding: 40px 20px;
 }
-.intro h2{                           
+.intro h1{                           
   font-size: 40px;
 }
-.intro h2 span{
+.intro h1 span{
   color: #e600a1;
   font-weight: bold;
 }
 
-.intro h3{ 
+.intro h2{ 
   font-size: 30px;
 }
-.intro h3 span {
+.intro h2 span {
   color: #e600a1;
   font-weight: bold;
 }
@@ -470,14 +470,18 @@ section {
 
 @media (max-width: 768px) {
   .intro, .intro2 {
-    padding: 20px 10px;
+    padding: 20px 20px;
     text-align: center;
   }
 
   .intro h1, .intro2 h2 {
-    font-size: 24px;
+    font-size: 20px;
   }
 
+  .fixed-text {
+    display: none;
+  }
+  
   .carousel-container {
     margin-left: 0;
     padding: 0 10px;
@@ -504,17 +508,15 @@ section {
   }
 
   .carousel-btn, .carousel-btn2 {
-    width: 36px;
-    height: 36px;
-    font-size: 20px;
+    display: none;
   }
 
   .carousel-btn.left, .carousel-btn2.left {
-    left: 10px;
+    display: none;
   }
 
   .carousel-btn.right, .carousel-btn2.right {
-    right: 10px;
+    display: none;
   }
 }
 
