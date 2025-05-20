@@ -863,6 +863,7 @@ section {
   .lokasi-container {
     display: flex;
     flex-direction: column;
+    align-items: center; /* ✅ Ini baris penting */
     gap: 15px;
   }
 
