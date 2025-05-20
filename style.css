@@ -810,7 +810,7 @@ section {
 /* Nama cabang */
 .lokasi-card h3 {
   margin: 10px 0 5px;
-  font-size: 1.2em;
+  font-size: 1.5em;
   color:#cc008a;
 }
 
@@ -893,8 +893,7 @@ section {
   }
 
   .lokasi-card h3 {
-    font-size: 20px;
-    color: #333;
+    font-size: 25px;
   }
 
   .lokasi-card p {
