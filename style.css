@@ -396,13 +396,32 @@ section {
   flex: 0 0 auto;
   background-color: white;
   border-radius: 16px;
-  padding: 35px;  
+  padding: 20px 30px;  /* ubah padding lebih merata td nya 35 */
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+
 .card p{
   text-align: justify;
+  line-height: 1.7; /* biar jarak antar baris lebih enak */
+  margin-bottom: 10px; /* kasih jarak antar paragraf */
+  font-size: 16px;
+  font-size: 16px;
+  word-spacing: normal;     /* Menghindari renggangnya kata-kata */
+  letter-spacing: normal;   /* Pastikan huruf tidak saling berjauhan */
+  text-justify: inter-word; /* Prioritaskan spasi antar kata, bukan antar huruf */
 }
 
 .card:active {
@@ -436,6 +455,8 @@ section {
 
 .card-title{
   color: #e600a1;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 /*JK*/
@@ -474,7 +495,7 @@ section {
 }
 
 .carousel-btn2.left {
-  /* Menyesuaikan posis i dengan teks tetap */
+  /* Menyesuaikan posisi dengan teks tetap */
     left: 200px;
   } 
   
@@ -485,6 +506,8 @@ section {
 .card-title2{
   color: #0789D4;
   padding-inline: 40px;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 768px) {
@@ -524,11 +547,12 @@ section {
     margin-bottom: 12px;
   }
 
-  .card p {
-    font-size: 14px;
-    text-align: left;
-    line-height: 1.5;
-  }
+  .carousel-section2 .card p {
+  text-align: justify;
+  line-height: 1.7;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
 
   .carousel-btn, .carousel-btn2 {
     display: none; /* tombol panah disembunyikan karena swipe lebih natural di mobile */
@@ -564,16 +588,16 @@ section {
 /* Tombol Gratis */
 .gratis-btn {
   display: block;
-  margin: 50px auto;
+  margin: 60px auto;
   text-align: center;
   background-color: #e600a1;
   color: white;
   border: none;
-  padding: 20px;
+  padding: 25px 60px;
   border-radius: 50px;
   font-weight: bold;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 28px;
   text-decoration: none;
   width: fit-content;
 }
@@ -1040,6 +1064,7 @@ section {
   font-size: 50px;
   color: #400034;
   margin-top: 10px; /* Sedikit ditambah agar tidak terlalu rapat */
+  text-decoration: none;
 }
 
 /* Responsive Mobile */
