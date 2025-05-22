@@ -606,6 +606,16 @@ section {
   transform: scale(1.05);
 }
 
+@media (max-width: 768px) {
+  .gratis-btn {
+    font-size: 18px;
+    padding: 12px 24px;
+    width: 50%;
+    max-width: 300px;
+  }
+}
+
+
 /* Kontainer utama */
 .content-container {
   display: flex;
