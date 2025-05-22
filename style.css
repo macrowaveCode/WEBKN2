@@ -593,7 +593,7 @@ section {
   background-color: #e600a1;
   color: white;
   border: none;
-  padding: 25px 60px;
+  padding: 25px 50px;
   border-radius: 50px;
   font-weight: bold;
   cursor: pointer;
@@ -1108,7 +1108,7 @@ section {
 
 /* Gambar tombol */
 .button-image {
-  width: 400px; /* Sesuaikan ukuran tombol jika perlu */
+  width: 500px; /* Sesuaikan ukuran tombol jika perlu */
   cursor: pointer;
   transition: transform 0.2s ease;
 }
