@@ -594,8 +594,8 @@ section {
     display: none;
   }
   .card {
-    min-width: 200px !important;
-    max-width: 350px !important;
+    min-width: 20% !important;
+    max-width: 80% !important;
     width: 100% !important;
     box-sizing: border-box;
   }
