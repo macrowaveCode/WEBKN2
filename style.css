@@ -352,19 +352,22 @@ section {
   font-weight: bold;
 }
 
-.intro h3{ 
-  font-size: 30px;
-}
-.intro h3 span {
-  color: #e600a1;
-  font-weight: bold;
-}
-
 .carousel-section {
   position: relative;
   background-color: #ffe5f2;
   padding: 40px 0;
   overflow: hidden;
+}
+
+.deskripsi{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.deskripsi h3{ 
+  font-size: 30px;
+}
+.deskripsi h3 span {
+  font-weight: bold;
 }
 
 .fixed-text {
@@ -471,23 +474,23 @@ section {
 }
 
 /*JK*/
-.intro2 {
-  text-align: center;
-  padding: 40px 20px;
-}
-.intro2 h3{
-  font-size: 30px;
-}
-.intro2 h3 span {
-  color: #2787D6;
-  font-weight: bold;
-}
-
 .carousel-section2 {
   position: relative;
   background-color: #DAF3FF;
   padding: 40px 0;
   overflow: hidden;
+}
+
+.deskripsi2{
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 0 100px 0 100px;
+}
+.deskripsi2 h3{ 
+  font-size: 30px;
+}
+.deskripsi2 h3 span {
+  font-weight: bold;
 }
 
 .carousel-btn2 {
