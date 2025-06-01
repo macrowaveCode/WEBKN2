@@ -563,14 +563,16 @@ section {
     font-size: 14px;
   }
 
+  .carousel-container {
+    margin-left: 10px !important;
+    padding: 0 !important;
+  }
   .carousel {
     gap: 10px;
     padding: 16px 0px;
     min-width: 100%;
   }
-  .carousel-container{
-    margin-left: 20px;
-  }
+  
   .card h2, .card h4 {
     margin-bottom: 12px;
   }
@@ -600,15 +602,6 @@ section {
     max-width: 90% !important;
     width: 90% !important;
     box-sizing: border-box;
-  }
-
-  .carousel-container {
-    margin-left: 30px !important;
-    padding: 0 16px !important;
-  }
-
-  .carousel {
-    padding: 16px 0 !important;
   }
 }
 
