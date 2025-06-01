@@ -313,7 +313,7 @@ section {
   }
 
   .why-title img {
-    padding-left: 10%;
+    padding-left: 8%;
     text-align: center;
     width: 100%;
     max-width: 350px;
@@ -523,24 +523,18 @@ section {
 }
 
 @media (max-width: 768px) {
-  .intro, .intro2 {
-    padding: 24px 16px;
+  .intro{
+    padding: 35px 16px 15px 16px;
     text-align: center;
     margin-top: 24px;
   }
 
-  .intro h2, .intro2 h2 {
+  .intro h2{
     font-size: 26px;
     line-height: 1.3;
   }
 
-  .intro h3, .intro2 h3 {
-    font-size: 22px;
-    margin-top: 16px;
-    line-height: 1.3;
-  }
-
-  .intro p, .intro2 p {
+  .intro p {
     font-size: 14px;
     line-height: 1.6;
     margin-top: 12px;
@@ -550,8 +544,26 @@ section {
     display: none; /* disembunyikan untuk tampilan mobile agar tidak mengganggu */
   }
 
+  .deskripsi{
+    padding: 0 25px;
+  }
+  .deskripsi h3{
+    font-size: 22px;
+  }
+  .deskripsi p{
+    font-size: 14px;
+  }
+  .deskripsi2 {
+    padding: 0 30px;
+  }
+  .deskripsi2 h3{
+    font-size: 22px;
+  }
+  .deskripsi2 p{
+    font-size: 14px;
+  }
   .carousel {
-    gap: 16px;
+    gap: 10px;
     padding: 16px 0;
   }
 
