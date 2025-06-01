@@ -1068,6 +1068,11 @@ section {
   margin-top: 70px;
 }
 
+.instagram-handle:hover {
+  color: #d100a4;
+  cursor: pointer;
+}
+
 /* Judul */
 .connect-section h2 {
   font-size: 40px;
@@ -1170,7 +1175,7 @@ section {
 
 .footer {
   background: linear-gradient(to right, #d4d4ff, #f5ccff);
-  padding: 70px 20px;
+  padding: 26px 50px;
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   color: #222;
@@ -1193,7 +1198,6 @@ section {
 
 .footer-logo img {
   width: 130px;
-  margin-bottom: 10px;
 }
 
 .footer-section {
