@@ -295,10 +295,6 @@ section {
     margin-bottom: 20px;
   }
 
-  .why-image .pink-circle {
-    display: none;
-  }
-
   .why-image .maskot {
     width: 180px;
     position: relative;
@@ -308,34 +304,7 @@ section {
   }
 
   .why-text {
-    width: 100%;
-  }
-
-  .why-title {
-    font-size: 22px;
-    font-weight: bold;
-    margin-bottom: 16px;
-    color: #000;
-  }
-
-  .why-title img {
-    width: 85%;
-    margin: 0 auto;
-  }
-
-  .why-list {
-    list-style-type: none;
-    padding: 0;
-    margin-top: 20px;
-  }
-
-  .why-list li {
-    background-color: #ffddee;
-    margin-bottom: 10px;
-    padding: 12px 16px;
-    border-radius: 10px;
-    font-size: 14px; /* perbaikan dari 1px */
-    color: #000;
+    max-width: 100%;
   }
 }
 
