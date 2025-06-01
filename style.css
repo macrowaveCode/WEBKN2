@@ -1173,6 +1173,7 @@ section {
   }
 }
 
+/* footer Section */
 .footer {
   background: linear-gradient(to right, #d4d4ff, #f5ccff);
   padding: 26px 50px;
@@ -1198,6 +1199,22 @@ section {
 
 .footer-logo img {
   width: 130px;
+}
+
+.footer-section.menu {
+  padding-left: 100px;
+}
+
+.footer-section.lokasi {
+  padding-left: 30px;
+}
+
+.footer-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: #111;
+  /* Tidak ada margin-left, biar sejajar */
 }
 
 .footer-section {
@@ -1257,13 +1274,18 @@ section {
 
 @media (max-width: 768px) {
   .footer-container {
-    flex-direction: column;
+    display: flex;            /* ganti dari grid ke flex */
+    flex-direction: column;   /* tumpuk ke bawah */
     padding: 30px 20px;
     text-align: center;
+    align-items: center;
+    .footer-section.menu,
+    .footer-section.lokasi {padding-left: 0;}
   }
 
   .footer-section {
     margin-bottom: 25px;
+    width: 100%; 
   }
 
   .footer-logo img {
