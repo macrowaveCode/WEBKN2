@@ -654,8 +654,8 @@ section {
 }
 
 .semi-circle {
-  width: 400px;
-  height: 400px;
+  width: 450px;
+  height: 450px;
   background-color: #ffddee;
   border-radius: 50%;
   position: absolute;
@@ -670,9 +670,9 @@ section {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.img1 { top: -15px; left: 40px; width: 30%; }
-.img2 { top: 140px; left: 110px; width: 30%; }
-.img3 { top: 280px; left: 20px; width: 30%; }
+.img1 { top: -28px; left: 15px; width: 35%; }
+.img2 { top: 128px; left: 100px; width: 35%; }
+.img3 { top: 280px; left: 15px; width: 35%; }
 
 .hover-img:hover {
   transform: scale(1.2);
@@ -729,6 +729,7 @@ section {
   margin: 0;
   color: #333;
 }
+
 
 /* Media Queries untuk tampilan mobile */
 @media (max-width: 768px) {
@@ -1097,6 +1098,10 @@ section {
   color: #400034;
   margin-top: 10px; /* Sedikit ditambah agar tidak terlalu rapat */
   text-decoration: none;
+
+  /* Tambahan agar bisa membungkus div dan gambar */
+  display: inline-block;
+  width: 100%;
 }
 
 /* Responsive Mobile */
