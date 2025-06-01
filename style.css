@@ -591,16 +591,15 @@ section {
   .fixed-text {
     display: none;
   }
-
   .card {
-    min-width: unset !important;
-    max-width: unset !important;
+    min-width: 200px !important;
+    max-width: 350px !important;
     width: 100% !important;
     box-sizing: border-box;
   }
 
   .carousel-container {
-    margin-left: 0 !important;
+    margin-left: 30px !important;
     padding: 0 16px !important;
   }
 
