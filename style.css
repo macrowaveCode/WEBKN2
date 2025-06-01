@@ -562,9 +562,11 @@ section {
   .deskripsi2 p{
     font-size: 14px;
   }
+
   .carousel {
     gap: 10px;
     padding: 16px 0;
+    min-width: 95%;
   }
 
   .card h2, .card h4 {
