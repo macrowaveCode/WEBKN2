@@ -254,8 +254,7 @@ section {
   align-items: center;
   padding: 60px;
   background-color: #fff;
-  font-family: 'Inter', sans-serif; /* Ganti ke 'DM Sans' kalau mau vibe lebih casual */
-  gap: 40px;
+  font-family: 'DM Sans', sans-serif; /* Lebih modern dan ramah anak */
 }
 
 .why-text {
@@ -287,24 +286,36 @@ section {
     flex-direction: column;
     padding: 40px 20px;
     text-align: center;
+    align-items: center;
   }
 
   .why-image {
     width: 100%;
-    position: relative;
+    display: flex;
+    justify-content: center;
     margin-bottom: 20px;
   }
 
   .why-image .maskot {
     width: 180px;
-    position: relative;
-    top: unset;
-    left: unset;
-    transform: none;
+    max-width: 100%;
+    height: auto;
   }
 
   .why-text {
     max-width: 100%;
+  }
+
+  .why-items {
+    align-items: center; /* Pusatkan semua item */
+  }
+
+  .why-item {
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 15px;
+    text-align: left;
   }
 }
 
