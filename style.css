@@ -884,6 +884,20 @@ section {
   color: #000;
   margin-bottom: 8px;
 }
+/* WA */
+/* Styling nomor WA link default */
+.wa-link {
+  color: #000; /* teks hitam normal */
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.wa-link:hover {
+  color: #d100a4;
+  text-decoration: underline;
+}
+
 /* Link Maps */
 .lokasi-link {
   font-size: 0.95em;
@@ -919,7 +933,7 @@ section {
   .lokasi-container {
     display: flex;
     flex-direction: column;
-    align-items: center; /* ✅ Ini baris penting */
+    align-items: center; /* Ini baris penting */
     gap: 15px;
   }
 
@@ -963,6 +977,7 @@ section {
     margin-bottom: 10px;
     display: block;
   }
+
   .lokasi-link {
     display: inline-block;
     padding: 8px 15px;
@@ -1173,7 +1188,7 @@ section {
   }
 }
 
-/* footer Section */
+/* Footer Section */
 .footer {
   background: linear-gradient(to right, #d4d4ff, #f5ccff);
   padding: 26px 50px;
@@ -1274,8 +1289,8 @@ section {
 
 @media (max-width: 768px) {
   .footer-container {
-    display: flex;            /* ganti dari grid ke flex */
-    flex-direction: column;   /* tumpuk ke bawah */
+    display: flex;            
+    flex-direction: column;  
     padding: 30px 20px;
     text-align: center;
     align-items: center;
