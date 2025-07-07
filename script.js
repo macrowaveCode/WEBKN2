@@ -35,7 +35,17 @@ document.getElementById("scroll-right").addEventListener("click", () => {
   document.getElementById("logo-scroll").scrollBy({ left: 200, behavior: "smooth" });
 });
 
-function recaptchaSuccess() {
-  // Setelah lolos reCAPTCHA → redirect ke Google Form
-  window.location.href = "https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform";
+function recaptchaSuccess(token) {
+  // Cek apakah token valid
+  const recaptchaToken = grecaptcha.getResponse();
+  if (!recaptchaToken) {
+    alert("Verifikasi gagal. Silakan coba lagi.");
+    return;
+  }
+
+  console.log("✅ reCAPTCHA lolos dengan token:", recaptchaToken);
+
+  // Redirect setelah lolos verifikasi
+  window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLScqQ8K7VIOHHrBt7xqLJTwUvPbHszeYotZEOp1HJLsYxpKJBA/viewform";
 }
+grecaptcha.reset();
