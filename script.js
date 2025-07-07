@@ -40,6 +40,7 @@ function recaptchaSuccess(token) {
   const recaptchaToken = grecaptcha.getResponse();
   if (!recaptchaToken) {
     alert("Verifikasi gagal. Silakan coba lagi.");
+    grecaptcha.reset();
     return;
   }
 
@@ -48,4 +49,3 @@ function recaptchaSuccess(token) {
   // Redirect setelah lolos verifikasi
   window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLScqQ8K7VIOHHrBt7xqLJTwUvPbHszeYotZEOp1HJLsYxpKJBA/viewform";
 }
-grecaptcha.reset();
