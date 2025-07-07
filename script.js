@@ -36,7 +36,11 @@ document.getElementById("scroll-right").addEventListener("click", () => {
 });
 
 function recaptchaSuccess(token) {
-  // Cek apakah token valid
+  if (typeof grecaptcha === "undefined") {
+    alert("Sistem verifikasi belum siap. Silakan tunggu sebentar.");
+    return;
+  }
+
   const recaptchaToken = grecaptcha.getResponse();
   if (!recaptchaToken) {
     alert("Verifikasi gagal. Silakan coba lagi.");
@@ -45,7 +49,5 @@ function recaptchaSuccess(token) {
   }
 
   console.log("✅ reCAPTCHA lolos dengan token:", recaptchaToken);
-
-  // Redirect setelah lolos verifikasi
   window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLScqQ8K7VIOHHrBt7xqLJTwUvPbHszeYotZEOp1HJLsYxpKJBA/viewform";
 }
